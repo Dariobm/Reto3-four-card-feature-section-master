@@ -1,2 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+:root{
+     --Red: hsl(0, 78%, 62%);
+     --Cyan: hsl(180, 62%, 55%);
+     --Orange: hsl(34, 97%, 64%);
+     --Blue: hsl(212, 86%, 64%);
+     --VeryDarkBlue: hsl(234, 12%, 34%);
+     --GrayishBlue: hsl(229, 6%, 66%);
+     --VeryLightGray: hsl(0, 0%, 98%);
+}
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    box-sizing: border-box;
+    color: var(--VeryDarkBlue);
+    background-color: var(--VeryLightGray);
+}
+.container{
+    margin: 90px 30px;
+}
+/*-----------------------Header-----------------------*/
+header{
+    text-align: center;
+}
+header h1{
+    font-weight: 200;
+    font-size: 1.6em;
+    margin: 0;
+}
+header h2{
+    font-weight: 200;
+    font-size: 1.05em;
+    margin: 0;
+}
+header p{
+    font-size: 1.05em;
+    color: var(--GrayishBlue);
+    margin-bottom: 70px;
+}
+/*-----------------------footer-----------------------*/
 .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
